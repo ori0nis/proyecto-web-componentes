@@ -1,23 +1,25 @@
 nav {
     width: 100%;
     height: 8em;
-    padding-top: 3em;
+/*     padding-top: 3em; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 3em;
-    position: fixed;
+    position: sticky;
+    z-index: 999;
 
     h1 {
-        font-family: var(--nav);
+        font-family: var(--font);
         font-size: 1.8em;
-        letter-spacing: 3px;
+        letter-spacing: var(--spacing);
         color: white;
         cursor: pointer;
     }
 
     ul {
         list-style-type: none;
+        margin-bottom: 0.5em;
     }
 
     li {
@@ -25,9 +27,9 @@ nav {
     }
 
     button {
-        font-family: var(--nav);
+        font-family: var(--font);
         font-size: 0.95em;
-        letter-spacing: 3px;
+        letter-spacing: var(--spacing);
         color: white;
         border: none;
         cursor: pointer;

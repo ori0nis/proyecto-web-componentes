@@ -5,7 +5,7 @@ const CVContent = {
     avatar:
       "https://avatars.githubusercontent.com/u/69155189?v=4",
     aboutMe:
-      "I'm a Fullstack Web Development student, a journalist and a triathlete with a passion for reading. My work experience is shared between Marketing, Journalism, and hopefully soon, Web Development. I am a 'life super-user', a passionate individual who is always looking for new challenges and action for her 24/7 active mind.",
+      "I'm a Fullstack Web Development student, a journalist and a triathlete with a passion for reading. My work experience is shared between Marketing, Journalism, and hopefully soon, Web Development. I am a 'life super-user', a passionate individual who is always looking for new challenges and action for my 24/7 active mind.",
     skills: [
         "HTML5",
         "CSS3",

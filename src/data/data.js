@@ -1,1 +1,0 @@
-//! Pensar si crear aquí las funciones de renderizado
