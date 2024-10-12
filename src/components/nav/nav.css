@@ -1,0 +1,64 @@
+nav {
+    width: 100%;
+    height: 8em;
+    padding-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3em;
+    position: fixed;
+
+    h1 {
+        font-family: var(--nav);
+        font-size: 1.8em;
+        letter-spacing: 3px;
+        color: white;
+        cursor: pointer;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        padding: 3px;
+    }
+
+    button {
+        font-family: var(--nav);
+        font-size: 0.95em;
+        letter-spacing: 3px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.5s ease, color 0.5s ease;
+    }
+
+    .word-one, .word-two, .word-three, .word-four, .word-five {
+        transition: transform 0.5s ease, color 0.5s ease;
+    }
+
+    .word-one:hover {
+        color: rgba(253, 90, 90, 0.774);
+    }
+
+    .word-two:hover {
+        color: rgba(73, 245, 73, 0.692);
+    }
+
+    .word-three:hover {
+        color: rgba(245, 245, 76, 0.808);
+    }
+
+    .word-four:hover {
+        color: rgba(189, 36, 189, 0.788);
+    }
+
+    .word-five:hover {
+        color: rgba(69, 214, 250, 0.548);
+    }
+
+    button:hover{
+        color: rgb(180, 108, 49);
+    }
+}
