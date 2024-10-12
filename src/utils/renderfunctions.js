@@ -2,7 +2,7 @@
 import { aboutMe } from "../components/sections/aboutme/aboutme";
 
 
-export const renderProjects = () => {
+export const renders = () => {
     const app = document.querySelector("#app");
     const aboutMeSection = document.createElement("section").innerHTML = aboutMe();
     app.insertAdjacentHTML("afterbegin", aboutMeSection);

@@ -1,20 +1,21 @@
-import "./nav.css"
+import "./nav.css";
+import { button } from "../button/button";
 
 export const nav = () =>
-    `<nav>
+    `<nav id="nav">
       <h1><span class="word-one">Oihane</span> <span class="word-two">García</span> <span class="word-three">de</span> <span class="word-four">Cáceres</span> <span class="word-five">López</span></h1>
       <ul>
         <li>
-            <button type="button">About me</button>
+            ${button("About me")}
         </li>
         <li>
-            <button type="button">Education</button>
+            ${button("Education")}
         </li>
         <li>
-            <button type="button">Experience</button>
+            ${button("Experience")}
         </li>
         <li>
-            <button type="button">Projects</button>
+            ${button("Projects")}
         </li>
       </ul>
     </nav>`;

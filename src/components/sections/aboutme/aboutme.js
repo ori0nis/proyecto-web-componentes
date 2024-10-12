@@ -1,11 +1,12 @@
 import "./aboutme.css";
 import CVContent from "../../../data/cvcontent";
+import { button } from "../../button/button";
 
 export const aboutMe = () => 
     `<section id="aboutme">
         <div>
             <h2>About Me</h2>
-            <img src="https://avatars.githubusercontent.com/u/69155189?v=4" alt="profile picture">
+            <img src="${CVContent.avatar}" alt="profile picture">
             <ul>
                 <li>${CVContent.skills[0]}</li>
                 <li>${CVContent.skills[1]}</li>
@@ -16,7 +17,7 @@ export const aboutMe = () =>
                 <li>${CVContent.skills[6]}</li>
             </ul>
             <p>${CVContent.aboutMe}</p>
-            <button type="button">Contact me</button>
+            ${button("Contact me")}
         <div>    
     </section>`;
 

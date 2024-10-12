@@ -1,0 +1,17 @@
+button {
+    font-family: var(--font);
+    font-size: 0.95rem;
+    letter-spacing: var(--spacing);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#nav button {
+    transition: transform 0.5s ease, color 0.5s ease;
+}
+
+#aboutme button {
+    font-size: 1.3rem;
+    transition: transform 0.5s ease, color 0.5s ease;
+}
