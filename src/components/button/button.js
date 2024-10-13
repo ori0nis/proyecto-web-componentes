@@ -7,5 +7,6 @@ export const button = (text = null, link = null, icon = null) =>
         ${icon ? `<img src="${icon}" alt="${text} icon" />` : ""}
         ${text ? `${text}` : ""}
     </button>
-`;
+    ${link ? `</a>` : ""}
+    `;
 

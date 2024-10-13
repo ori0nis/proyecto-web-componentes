@@ -8,10 +8,26 @@ button {
 }
 
 #nav button {
-    transition: transform 0.5s ease, color 0.5s ease;
+    transition: var(--transform-color);
+}
+
+#nav button:hover{
+    color: var(--hover-color);
 }
 
 #aboutme button {
     font-size: 1.3rem;
-    transition: transform 0.5s ease, color 0.5s ease;
+    transition: var(--transform-color);
+}
+
+#aboutme button:hover{
+    color: var(--hover-color);
+}
+
+.finaldegreeproject button {
+    transition: var(--transform-color);
+}
+
+.finaldegreeproject button:hover {
+    color: var(--hover-color);
 }

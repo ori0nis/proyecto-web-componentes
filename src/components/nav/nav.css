@@ -48,8 +48,4 @@ nav {
     .word-five:hover {
         color: rgba(69, 214, 250, 0.548);
     }
-
-    button:hover{
-        color: rgb(180, 108, 49);
-    }
 }

@@ -3,6 +3,9 @@
 :root {
   --font: 'Open Sans', 'Roboto';
   --spacing: 3.5px;
+  --copper-color: rgb(190, 141, 101);
+  --transform-color: transform 0.5s ease, color 0.5s ease;
+  --hover-color: rgb(180, 108, 49);
 }
 
 * {

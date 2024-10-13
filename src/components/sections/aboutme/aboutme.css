@@ -1,6 +1,7 @@
 #aboutme {
     width: 100%;
-    margin: 15rem auto;
+    margin-top: 15rem;
+    margin-bottom: 8rem;
     text-align: center;
 
     h2 {
@@ -36,7 +37,7 @@
     li {
         font-family: 'Roboto';
         font-size: 0.9rem;
-        background-color: rgb(190, 141, 101);
+        background-color: var(--copper-color);
         padding: 6px;
         border-radius: 1rem;
     }
@@ -46,10 +47,6 @@
         width: 40%;
         font-family: 'Roboto';
         line-height: 1.4rem;
-        color: rgb(190, 141, 101);
-    }
-
-    button:hover{
-        color: rgb(180, 108, 49);
+        color: var(--copper-color);
     }
 }
