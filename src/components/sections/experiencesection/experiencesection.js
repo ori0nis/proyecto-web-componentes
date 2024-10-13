@@ -4,25 +4,19 @@ import CVContent from "../../../data/cvcontent";
 
 export const experiencesection = () => {
 
-    const experienceEntries = CVContent.workExperience;
-
-    let HTMLContent = 
+    const HTMLContent = 
     `
         <section id="experiencesection">
-            <h2>Experience</h2>      
-        `
-
-    experienceEntries.forEach(experience => {
-
-        HTMLContent += 
-        `
-                <h2>Experience</h2>
+            <h2>Experience</h2>
+            ${CVContent.workExperience.map(experience => `
+                <div class="experience-entry">
                     <h3>${experience.startYear} - ${experience.endYear}</h3>
                     <p>${experience.aboutMyExperience}</p>
-                    ${button(null, experience.link, experience.linkIcon)}       
-        `
-    });
+                    ${button(null, experience.link, experience.linkIcon)}
+                </div>
+            `).join('')}
+        </section>
+    `;
 
-    HTMLContent += `</section>`;
     return HTMLContent;
-}
+};

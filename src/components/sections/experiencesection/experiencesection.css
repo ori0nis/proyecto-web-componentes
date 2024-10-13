@@ -1,0 +1,34 @@
+#experiencesection {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--font);
+    letter-spacing: var(--spacing);
+
+        h2, h3, p {
+            color: white;
+            padding-bottom: 0.7rem;
+        }
+
+        div {
+            padding-bottom: 3rem;
+        }
+
+        h2 {
+            padding-bottom: 3rem;
+            font-size: 1.7rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        p {
+            color: var(--copper-color);
+            font-size: 0.92rem;
+            width: 30%;
+            margin: 0 auto;
+            line-height: 1.4rem;
+        }
+}

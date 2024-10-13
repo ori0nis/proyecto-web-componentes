@@ -55,14 +55,14 @@ const CVContent = {
       {
         startYear: 2016,
         endYear: "ongoing",
-        aboutMyExperience: "I'm lucky enough to have a very long Marketing and Journalism experience. For a full relation of it, visit ",
+        aboutMyExperience: "I'm lucky enough to have a very long Marketing and Journalism experience. For a full relation of it, visit: ",
         link: "https://www.linkedin.com/in/oihanegdcl/details/experience/",
         linkIcon: "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
       },
       {
         startYear: 2024,
         endYear: "ongoing",
-        aboutMyExperience: "Stay tuned for the start of my developing career! In the meantime, check out my GitHub at ",
+        aboutMyExperience: "Stay tuned for the start of my developing career! In the meantime, check out my GitHub at: ",
         link: "https://github.com/ori0nis",
         linkIcon: "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
       }
