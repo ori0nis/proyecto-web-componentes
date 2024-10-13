@@ -1,13 +1,13 @@
-import "./cvsection.css";
+import "./educationsection.css";
 import { button } from "../../button/button";
 import CVContent from "../../../data/cvcontent";
 
-export const cvsection = () => {
+export const educationsection = () => {
     const educationEntries = CVContent.education;
 
     let HTMLcontent = 
         `
-        <section id="cvsection">
+        <section id="educationsection">
             <h2>Education</h2>
         `
     
@@ -17,7 +17,7 @@ export const cvsection = () => {
         <div class="education-entry">
             <h3>${educationEntry.degree}</h3>
             <h4>${educationEntry.university}</h4>
-            <p>Graduation year: ${educationEntry.graduationYear}</p>
+            <p>Graduation year: ${educationEntry.startYear === 2013 ? `${educationEntry.startYear}/` : ""}${educationEntry.endYear}</p>
         `;
 
         if (educationEntry.finalDegreeProject) {
