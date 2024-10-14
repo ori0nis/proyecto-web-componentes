@@ -1,11 +1,11 @@
 #project-section {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
 #projects {
-    width: 100%;
     margin: 0 auto;
+    width: 300px;
 
     h2 {
         font-family: var(--font);
@@ -25,7 +25,6 @@
 }
 
 .project-card {
-    margin: 0 auto;
     font-family: var(--font);
     letter-spacing: var(--spacing);
     color: white;
