@@ -5,7 +5,8 @@
 
 #projects {
     margin: 0 auto;
-    width: 300px;
+    max-width: 900px;
+    width: 100%;
 
     h2 {
         font-family: var(--font);
@@ -45,3 +46,13 @@
         object-fit: cover;
     }
 }
+
+/* Media queries */
+
+@media (max-width: 450px) {
+    
+    .project-grid {
+      
+        padding: 0 2rem 0 2rem;
+    }
+  }
