@@ -14,8 +14,8 @@ export const projectCard = () => {
                         <img src="${project.preview}" alt="project preview image">
                         <h3>${project.title}</h3>
                         <p>${project.description}</p>
-                        <span class="project-card-button-see">${button("See project...", project.link, null, "")}</span>
-                        <span class="project-card-button-github">${button(null, project.link, project.linkIcon, "")}</span>
+                        <span class="project-card-button-see">${button("See project...", project.linkProject, null, "")}</span>
+                        <span class="project-card-button-github">${button(null, project.linkGithub, project.linkIcon, "")}</span>
                     </div>
                 `).join('')}
             </div>

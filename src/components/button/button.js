@@ -9,4 +9,3 @@ export const button = (text = null, link = null, icon = null, className = "") =>
     </button>
     ${link ? `</a>` : ""}
     `;
-

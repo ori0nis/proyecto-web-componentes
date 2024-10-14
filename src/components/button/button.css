@@ -67,7 +67,7 @@ button {
 }
 
 .project-card-button-github button {
-    padding-top: 0.7rem;
+    margin-top: 0.7rem;
 
     img {
         width: 100%;
