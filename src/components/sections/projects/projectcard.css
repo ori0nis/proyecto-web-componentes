@@ -6,7 +6,6 @@
 #projects {
     margin: 0 auto;
     max-width: 900px;
-    width: 100%;
 
     h2 {
         font-family: var(--font);
@@ -19,7 +18,7 @@
 }
 
 .project-grid {
-    margin: 0 auto;
+    margin: 0 auto 19rem 0;
     padding: 0 2rem 0 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -62,5 +61,6 @@
     
     .project-grid {
         padding: 0 2rem 0 2rem;
+        margin: 0 auto 12rem 0;
     }
   }

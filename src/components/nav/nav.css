@@ -5,7 +5,6 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
-    position: sticky;
     z-index: 999;
 
     h1 {
