@@ -26,6 +26,7 @@ export const renders = () => {
 
     const projectSection = document.createElement("section");
     projectSection.innerHTML = projectCard();
+    projectSection.setAttribute("id", "project-section");
     app.appendChild(projectSection);
 
     const toggleButton = document.querySelector(".change-section-button");
