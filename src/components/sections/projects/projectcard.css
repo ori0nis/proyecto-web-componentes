@@ -20,6 +20,7 @@
 
 .project-grid {
     margin: 0 auto;
+    padding: 0 2rem 0 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -49,10 +50,17 @@
 
 /* Media queries */
 
+@media (max-width: 696px) {
+    
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 0 2rem 0 2rem;
+    }
+  }
+
 @media (max-width: 450px) {
     
     .project-grid {
-      
         padding: 0 2rem 0 2rem;
     }
   }
