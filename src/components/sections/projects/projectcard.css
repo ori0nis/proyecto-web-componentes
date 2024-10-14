@@ -1,9 +1,10 @@
 #project-section {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
 #projects {
+    width: 50%;
     margin: 0 auto;
 
     h2 {
@@ -19,7 +20,7 @@
 .project-grid {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2,auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
