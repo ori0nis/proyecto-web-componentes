@@ -1,4 +1,4 @@
-#experiencesection {
+#experience-section, .experience-section {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -10,7 +10,7 @@
             padding-bottom: 0.7rem;
         }
 
-        div {
+        .experience-entry {
             padding-bottom: 3rem;
         }
 

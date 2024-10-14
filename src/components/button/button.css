@@ -24,7 +24,7 @@ button {
     }
 }
 
-.finaldegreeproject button {
+.final-degree-project button {
     transition: transform 0.5s ease, background-color 0.5s ease;
     color: whitesmoke;
     background-color: rgba(255, 255, 255, 0.562);
@@ -47,5 +47,31 @@ button {
         padding: 0.7rem;
         background-color: var(--copper-color);
         margin-bottom: 5rem;
+    }
+}
+
+.project-card-button-see button {
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 0.3rem;
+
+    &:hover {
+        background-color: var(--hover-color);
+    }
+}
+
+.project-card-button-github {
+    width: 23%;
+    display: block;
+}
+
+.project-card-button-github button {
+    padding-top: 0.7rem;
+
+    img {
+        width: 100%;
+        height: 30px;
+        object-fit: cover;
     }
 }

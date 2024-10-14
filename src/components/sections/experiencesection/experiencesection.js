@@ -6,16 +6,16 @@ export const experiencesection = () => {
 
     const HTMLContent = 
     `
-        <section id="experiencesection">
-            <h2>Experience</h2>
-            ${CVContent.workExperience.map(experience => `
-                <div class="experience-entry">
+        <div id="experience-section" class="experience-section">
+            <div class="experience-entry">
+                <h2>Experience</h2>
+                ${CVContent.workExperience.map(experience => `
                     <h3>${experience.startYear} - ${experience.endYear}</h3>
                     <p>${experience.aboutMyExperience}</p>
-                    ${button(null, experience.link, experience.linkIcon)}
-                </div>
-            `).join('')}
-        </section>
+                    ${button(null, experience.link, experience.linkIcon, "")}
+            </div>        
+            `).join('')} 
+        </div>
     `;
 
     return HTMLContent;

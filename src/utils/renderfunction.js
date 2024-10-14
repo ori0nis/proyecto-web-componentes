@@ -1,7 +1,10 @@
 import { aboutMe } from "../components/sections/aboutme/aboutme";
 import { educationsection } from "../components/sections/educationsection/educationsection";
 import { experiencesection } from "../components/sections/experiencesection/experiencesection";
+import { projectCard } from "../components/sections/projects/projectcard";
 import { button } from "../components/button/button";
+
+// Contains the content renders + the button to toggle between sections
 
 export const renders = () => {
     const app = document.querySelector("#app");
@@ -16,24 +19,25 @@ export const renders = () => {
     app.appendChild(toggleSectionButtonContainer);
 
     const sectionsContainer = document.createElement("section");
-    sectionsContainer.setAttribute("id", "dynamic-section");
     sectionsContainer.innerHTML = educationsection();
+    sectionsContainer.setAttribute("id", "dynamic-section");
+    sectionsContainer.classList.add("toggle");
     app.appendChild(sectionsContainer);
 
+    const projectSection = document.createElement("section");
+    projectSection.innerHTML = projectCard();
+    app.appendChild(projectSection);
+
     const toggleButton = document.querySelector(".change-section-button");
-    let showingEducation = true;
 
     toggleButton.addEventListener("click", () => {
-        if (showingEducation) {
-            sectionsContainer.innerHTML = experiencesection();
-            toggleButton.innerText = "Show Education";
-        } else {
-            sectionsContainer.innerHTML = educationsection();
-            toggleButton.innerText = "Show Experience";
-        }
-        showingEducation = !showingEducation;
-    });
+
+        const isEducationActive= sectionsContainer.classList.toggle("toggle");
+        sectionsContainer.innerHTML = isEducationActive ? educationsection() : experiencesection();
+        toggleButton.textContent = isEducationActive ? "Show experience" : "Show education";
+    })
 };
+
 
 
 

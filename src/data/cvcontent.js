@@ -13,7 +13,7 @@ const CVContent = {
         "Node.js",
         "RESTful API",
         "Git",
-        "Frontend and Backend Development",
+        "Frontend and Backend Development"
       ],  
     education: [
         {

@@ -7,7 +7,7 @@ export const educationsection = () => {
 
     const HTMLcontent = 
     `
-        <section id="educationsection">
+        <div id="education-section" class="education-section">
             <h2>Education</h2>
             ${educationEntries.map(educationEntry => `
                 <div class="education-entry">
@@ -23,11 +23,11 @@ export const educationsection = () => {
                         </div>` 
                     : ""}
                     ${educationEntry.finalDegreeProject ? `
-                        <span class="finaldegreeproject">${button("Final degree project", educationEntry.finalDegreeProject, null)}</span>` 
+                        <span class="final-degree-project">${button("Final degree project", educationEntry.finalDegreeProject, null, "")}</span>` 
                     : ""}
                 </div>
             `).join('')}
-        </section>
+        </div>
     `;
 
     return HTMLcontent;
