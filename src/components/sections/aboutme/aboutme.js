@@ -12,7 +12,7 @@ export const aboutMe = () => {
             <ul>
                 ${skills.map(skill =>`
                         <li>${skill}</li>   
-                `).join('')});
+                `).join('')}
             </ul>    
             <p>${CVContent.aboutMe}</p>
             ${button("Contact me")}

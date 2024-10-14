@@ -30,6 +30,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
         gap: 3.7rem;
         text-align: center;
     }
@@ -40,6 +43,7 @@
         background-color: var(--copper-color);
         padding: 6px;
         border-radius: 1rem;
+        text-align: center;
     }
 
     p {
