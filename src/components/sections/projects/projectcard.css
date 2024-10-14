@@ -1,5 +1,5 @@
 #projects {
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
 
     h2 {
@@ -13,12 +13,14 @@
 }
 
 .project-grid {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
 .project-card {
+    margin: 0 auto;
     font-family: var(--font);
     letter-spacing: var(--spacing);
     color: white;
