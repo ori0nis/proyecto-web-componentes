@@ -12,15 +12,22 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  position: relative;
   scroll-behavior: smooth;
   background-color: black;
 }
 
 body {
   margin: 0 auto;
+  position: relative;
 }
 
 main {
   width: 100%;
+  margin: 0 auto;
+}
+
+#app {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
