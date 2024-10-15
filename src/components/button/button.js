@@ -19,3 +19,7 @@ export const button = (text = null, link = null, icon = null, className = "") =>
     ${link ? `</a>` : ""}
     `;
 
+export const easterEggButton = (text, className) => 
+    `
+    <button type="button" class="${className}">${text}</button>
+    `

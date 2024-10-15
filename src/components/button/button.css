@@ -23,6 +23,19 @@ button {
     }
 }
 
+.easter-egg {
+    font-family: var(--font);
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: var(--spacing);
+    transition: var(--transform-style);
+
+    &:hover {
+        color: rgba(247, 247, 18, 0.808);
+    }
+}
+
 .toggle-theme-button {
     font-size: 1.6rem;
     padding: 0.2rem;

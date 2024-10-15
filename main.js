@@ -23,5 +23,22 @@ toggleThemeButton.addEventListener("click", () => {
     }
 });
 
+// Hehe
+
+const easterEggButton = document.querySelector(".easter-egg");
+const easterEggKitty = document.querySelector(".easter-egg-kitty");
+
+easterEggButton.addEventListener("click", () => {
+    const rect = easterEggButton.getBoundingClientRect();
+
+    if (easterEggKitty.style.display === "block") {
+        easterEggKitty.style.display = "none";
+    } else {
+        easterEggKitty.style.left = `${rect.left}px`;
+        easterEggKitty.style.top = `${rect.bottom + window.scrollY}px`;
+        easterEggKitty.style.display = "block";
+    }    
+});
+
 renders();
 footer.innerHTML = footerContent();
