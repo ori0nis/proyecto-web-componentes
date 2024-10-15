@@ -15,7 +15,7 @@ export const aboutMe = () => {
                 `).join('')}
             </ul>    
             <p>${CVContent.aboutMe}</p>
-            ${button("Contact me")}
+            ${button("Contact me", "mailto:oihanegdcl@gmail.com")}
         </div>`;
     return HTMLcontent;
 };
