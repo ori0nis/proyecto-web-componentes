@@ -27,8 +27,17 @@
         p {
             color: var(--copper-color);
             font-size: 0.92rem;
-            width: 30%;
             margin: 0 auto;
+            width: 50%;
             line-height: 1.4rem;
         }
+}
+
+/* Media queries */
+
+@media (max-width: 450px) {
+
+    #experience-section p {
+        width: 70%;
+    }
 }
