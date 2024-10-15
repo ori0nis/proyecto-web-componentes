@@ -36,6 +36,13 @@ button {
     }
 }
 
+@media (max-width: 450px) {
+
+    .easter-egg {
+        font-size: 1.48rem;
+    }
+}
+
 .toggle-theme-button {
     font-size: 1.6rem;
     padding: 0.2rem;
