@@ -62,7 +62,15 @@ main {
 
   #nav .section-button:hover {
     color: var(--light-mode-text-color);
-}
+  }
+
+  #nav .easter-egg {
+    color: var(--light-mode-title-color);
+
+    &:hover {
+      color: rgba(247, 247, 18, 0.808);
+    }
+  }
 
   #aboutme {
 
