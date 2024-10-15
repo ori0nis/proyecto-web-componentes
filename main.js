@@ -35,10 +35,12 @@ easterEggButton.addEventListener("click", () => {
         easterEggKitty.style.display = "none";
     } else {
         easterEggKitty.style.left = `${rect.left}px`;
-        easterEggKitty.style.top = `${rect.bottom + window.scrollY}px`;
+        easterEggKitty.style.top = `${rect.bottom}px`;
         easterEggKitty.style.display = "block";
     }    
 });
 
 renders();
 footer.innerHTML = footerContent();
+
+
