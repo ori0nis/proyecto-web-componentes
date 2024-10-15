@@ -11,17 +11,18 @@ export const renders = () => {
 
     const aboutMeSection = document.createElement("section");
     aboutMeSection.innerHTML = aboutMe();
+    aboutMeSection.setAttribute("id", "aboutme");
     app.appendChild(aboutMeSection);
 
     const toggleSectionButtonContainer = document.createElement("div");
-    toggleSectionButtonContainer.setAttribute("class", "change-section-button-container");
     toggleSectionButtonContainer.innerHTML = button("Show Experience", null, null, "change-section-button");
+    toggleSectionButtonContainer.classList.add("change-section-button-container");
     app.appendChild(toggleSectionButtonContainer);
 
     const sectionsContainer = document.createElement("section");
     sectionsContainer.innerHTML = educationsection();
     sectionsContainer.setAttribute("id", "dynamic-section");
-    sectionsContainer.classList.add("toggle");
+    sectionsContainer.classList.add("education-section");
     app.appendChild(sectionsContainer);
 
     const projectSection = document.createElement("section");
@@ -33,7 +34,7 @@ export const renders = () => {
 
     toggleButton.addEventListener("click", () => {
 
-        const isEducationActive= sectionsContainer.classList.toggle("toggle");
+        const isEducationActive = sectionsContainer.classList.toggle("education-section");
         sectionsContainer.innerHTML = isEducationActive ? educationsection() : experiencesection();
         toggleButton.textContent = isEducationActive ? "Show experience" : "Show education";
     })

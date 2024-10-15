@@ -6,7 +6,7 @@ export const aboutMe = () => {
     const skills = CVContent.skills;
 
     const HTMLcontent = 
-        `<div id="aboutme">
+        `<div>
             <h2>About Me</h2>
             <img src="${CVContent.avatar}" alt="profile picture">
             <ul>

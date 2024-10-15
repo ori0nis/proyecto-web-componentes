@@ -7,11 +7,21 @@ button {
     cursor: pointer;
 }
 
-#nav button {
+#nav .section-button {
     transition: var(--transform-style);
 
     &:hover {
         color: var(--hover-color);
+    }
+}
+
+.toggle-theme-button {
+    font-size: 1.6rem;
+    padding: 0.2rem;
+    transition: var(--transform-style);
+
+    &:hover {
+        color: rgb(214, 214, 31);
     }
 }
 

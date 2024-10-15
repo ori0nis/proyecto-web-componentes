@@ -6,6 +6,9 @@
   --copper-color: rgb(190, 141, 101);
   --transform-style: transform 0.5s ease, color 0.5s ease;
   --hover-color: rgb(180, 108, 49);
+  --light-mode-title-color: rgb(80, 78, 78);
+  --light-mode-text-color: rgb(231, 40, 79);
+  --light-mode-button-background-color: rgb(235, 89, 118);
 }
 
 * {
@@ -14,6 +17,7 @@
   margin: 0;
   scroll-behavior: smooth;
   background-color: black;
+  transition: transform 0.4s ease, background-color 0.4s ease;
 }
 
 body {
@@ -24,8 +28,108 @@ body {
 main {
   width: 100%;
   height: auto;
+  padding-top: 15rem;
 }
 
 #app {
   width: 100%;
+}
+
+/* Styles for light mode */
+
+.light-mode {
+
+  * {
+    background-color: whitesmoke;
+  }
+
+  .toggle-theme-button {
+    color: var(--light-mode-title-color);
+    transition: var(--transform-style);
+
+    &:hover {
+      color: rgb(214, 214, 31);
+    }
+  }
+
+  h1, #nav .section-button {
+    color: var(--light-mode-title-color);
+  }
+
+  #nav .section-button:hover {
+    color: var(--light-mode-text-color);
+}
+
+  #aboutme {
+
+    h2 {
+      color: var(--light-mode-title-color);
+    }
+
+    li {
+      background-color: var(--light-mode-button-background-color);
+    }
+
+    p {
+      color: var(--light-mode-text-color);
+    }
+
+    button {
+      color: var(--light-mode-title-color);
+
+      &:hover {
+        color: var(--light-mode-text-color);
+      }
+    }
+  }
+
+  .change-section-button-container {
+
+    button {
+      background-color: var(--light-mode-button-background-color);
+      color: rgb(41, 40, 40);
+    }
+}
+
+  #dynamic-section {
+
+    h2, h3 {
+      color: var(--light-mode-title-color);
+    }
+
+    .relevant-courses {
+
+      h3, li {
+        color: var(--light-mode-text-color);
+      }
+    }
+
+    h4, p {
+      color: var(--light-mode-text-color);
+    }
+
+    .final-degree-project {
+      
+      button {
+        color: black;
+        background-color: var(--light-mode-button-background-color);
+      
+        &:hover {
+          background-color: var(--light-mode-title-color);
+          color: whitesmoke;
+        }
+      } 
+    }
+  }
+
+    #project-section {
+
+      h2 {
+        color: var(--light-mode-title-color);
+      }
+}
+
+
+
+
 }
