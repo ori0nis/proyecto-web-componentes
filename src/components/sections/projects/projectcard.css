@@ -19,8 +19,8 @@
 }
 
 .project-grid {
-    margin: 0 auto 19rem 0;
-    padding: 0 2rem 0 2rem;
+    margin: 0 auto;
+    padding: 0 2rem 19rem 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;

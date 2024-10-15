@@ -11,6 +11,10 @@
   --light-mode-button-background-color: rgb(235, 89, 118);
 }
 
+html {
+  background-color: black;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -124,12 +128,32 @@ main {
 
     #project-section {
 
-      h2 {
+      h2, h3 {
         color: var(--light-mode-title-color);
       }
-}
 
+      p {
+        color: var(--light-mode-text-color);
+      }
 
+      .project-card-button-see {
+      
+        button {
+          color: black;
+          background-color: var(--light-mode-button-background-color);
+        
+          &:hover {
+            background-color: var(--light-mode-title-color);
+            color: whitesmoke;
+          }
+        } 
+      }
+  }
 
+  #footer-content {
 
+    p {
+      color: var(--light-mode-text-color);
+    }
+  }
 }
