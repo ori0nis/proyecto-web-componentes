@@ -26,8 +26,6 @@ export const nav = () =>
     `;
 
 
-//TODO: AÑADIR EL BOTÓN DE W/B MODE
 //TODO: EASTER EGG
 //TODO: MEJOR RESPONSIVE DE LAS SECCIONES EXPERIENCIA/EDUCACIÓN
 //https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg
-

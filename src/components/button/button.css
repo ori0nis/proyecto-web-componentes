@@ -13,6 +13,14 @@ button {
     &:hover {
         color: var(--hover-color);
     }
+
+    &:focus {
+        color: var(--hover-color);
+    }
+
+    &:active {
+        color: var(--hover-color);
+    }
 }
 
 .toggle-theme-button {

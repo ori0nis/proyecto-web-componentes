@@ -11,6 +11,7 @@
         }
 
         .education-entry {
+            margin: 0 auto;
             padding-bottom: 3rem;
         }
 
@@ -30,6 +31,8 @@
         }
 
         p {
+            margin: 0 auto;
+            text-align: center;
             font-size: 0.92rem;
             color: var(--copper-color);
         }
@@ -38,7 +41,7 @@
             margin: 0 auto;
             margin-top: 2rem;
             padding-bottom: 0;
-            width: 30%;
+            width: 100%;
 
             h3 {
                 font-size: 1rem;
@@ -55,3 +58,19 @@
             }
         }
 }
+
+/* Media queries */
+
+/* @media (max-width: 950px) {
+    
+    .relevant-courses {
+        width: 75%;
+    }
+} */
+
+/* @media (max-width: 450px) {
+    
+    #aboutme p {
+        width: 70%;
+    }
+} */

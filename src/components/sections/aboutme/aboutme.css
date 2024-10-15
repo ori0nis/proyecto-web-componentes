@@ -32,7 +32,7 @@
         align-items: center;
         justify-items: center;
         align-content: center;
-        gap: 3.7rem;
+        gap: 2.2rem;
         text-align: center;
     }
 
@@ -51,5 +51,21 @@
         font-family: 'Roboto';
         line-height: 1.4rem;
         color: var(--copper-color);
+    }
+}
+
+/* Media queries */
+
+@media (max-width: 950px) {
+    
+    #aboutme p {
+        width: 75%;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    #aboutme p {
+        width: 70%;
     }
 }
