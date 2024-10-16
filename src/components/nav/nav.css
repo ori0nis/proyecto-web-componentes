@@ -25,7 +25,7 @@ nav {
     }
 
     .word-one, .word-two, .word-three, .word-four, .word-five {
-        transition: transform 0.6s ease, color 0.6s ease;
+        transition: var(--transform-style);
     }
 
     .word-three {

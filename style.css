@@ -4,7 +4,7 @@
   --font: 'Open Sans', 'Roboto';
   --spacing: 3.5px;
   --copper-color: rgb(190, 141, 101);
-  --transform-style: transform 0.5s ease, color 0.5s ease;
+  --transform-style: transform 0.4s ease, background-color 0.2s ease, color 0.2s ease;
   --hover-color: rgb(180, 108, 49);
   --light-mode-title-color: rgb(80, 78, 78);
   --light-mode-text-color: rgb(231, 40, 79);
@@ -21,7 +21,7 @@ html {
   margin: 0;
   scroll-behavior: smooth;
   background-color: black;
-  transition: transform 0.4s ease, background-color 0.4s ease;
+  transition: var(--transform-style);
 }
 
 body {
