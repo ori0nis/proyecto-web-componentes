@@ -66,6 +66,7 @@ main {
 
   #nav .easter-egg {
     color: var(--light-mode-title-color);
+    transition: var(--transform-style);
 
     &:hover {
       color: rgba(247, 247, 18, 0.808);
